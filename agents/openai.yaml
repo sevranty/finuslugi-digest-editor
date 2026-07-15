@@ -1,0 +1,7 @@
+interface:
+  display_name: "Редактор дайджеста Финуслуг"
+  short_description: "Вычитка, теги и сравнение дайджестов"
+  default_prompt: "Используй $finuslugi-digest-editor, чтобы вычитать приложенный дайджест, проверить его теги или сравнить две версии."
+policy:
+  allow_implicit_invocation: true
+
