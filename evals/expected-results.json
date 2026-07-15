@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "validation-positive",
+      "mode": [
+        "validation"
+      ],
+      "inputs": [
+        "evals/fixtures/validation-positive.md"
+      ],
+      "expected": {
+        "verdict": "no_findings",
+        "must_preserve": [
+          "42%",
+          "51%",
+          "июнь 2026 года",
+          "май 2026 года"
+        ],
+        "must_recognize": [
+          "completed_launch",
+          "measured_result",
+          "user_benefit",
+          "three_supported_tags"
+        ]
+      }
+    },
+    {
+      "id": "validation-negative",
+      "mode": [
+        "validation"
+      ],
+      "inputs": [
+        "evals/fixtures/validation-negative.md"
+      ],
+      "expected": {
+        "minimum_findings": 4,
+        "required_categories": [
+          "Слабый результат",
+          "Нет метрики",
+          "Tone of Voice",
+          "Структура"
+        ],
+        "must_not_invent": [
+          "effect_value",
+          "external_fact"
+        ]
+      }
+    },
+    {
+      "id": "tagging-positive",
+      "mode": [
+        "tagging"
+      ],
+      "inputs": [
+        "evals/fixtures/tagging-positive.md"
+      ],
+      "expected": {
+        "tag_count": 3,
+        "required_semantic_roles": [
+          "product_or_object",
+          "mechanism_or_channel",
+          "effect_or_metric"
+        ],
+        "acceptable_tags": [
+          "Подписка",
+          "Личный кабинет",
+          "Самостоятельное отключение",
+          "Экономия времени"
+        ]
+      }
+    },
+    {
+      "id": "tagging-negative",
+      "mode": [
+        "tagging"
+      ],
+      "inputs": [
+        "evals/fixtures/tagging-negative.md"
+      ],
+      "expected": {
+        "full_set_ready": false,
+        "must_include_marker": "— (недостаточно данных)",
+        "must_explain_missing_semantics": true
+      }
+    },
+    {
+      "id": "comparison-positive",
+      "mode": [
+        "comparison"
+      ],
+      "inputs": [
+        "evals/fixtures/comparison-positive-source.md",
+        "evals/fixtures/comparison-positive-target.md"
+      ],
+      "roles": {
+        "file_1": "source",
+        "file_2": "checked_version"
+      },
+      "expected": {
+        "verdict": "Соответствует",
+        "discrepancy_count": 0,
+        "must_preserve": [
+          "18%",
+          "12%",
+          "июнь 2026 года",
+          "май 2026 года"
+        ]
+      }
+    },
+    {
+      "id": "comparison-negative",
+      "mode": [
+        "comparison"
+      ],
+      "inputs": [
+        "evals/fixtures/comparison-negative-source.md",
+        "evals/fixtures/comparison-negative-target.md"
+      ],
+      "roles": {
+        "file_1": "source",
+        "file_2": "checked_version"
+      },
+      "expected": {
+        "verdict": "Не соответствует",
+        "required_discrepancies": [
+          "status_changed_launched_to_preparing",
+          "scope_changed_pilot_to_all_users",
+          "metric_changed_8.9_to_6.9",
+          "unsupported_causality_added",
+          "pilot_limitation_removed"
+        ],
+        "critical_values": [
+          "8,9%",
+          "6,9%",
+          "5,2%"
+        ]
+      }
+    },
+    {
+      "id": "combined",
+      "mode": [
+        "comparison",
+        "validation",
+        "tagging"
+      ],
+      "execution_order": [
+        "comparison",
+        "validation",
+        "tagging"
+      ],
+      "inputs": [
+        "evals/fixtures/combined-source.md",
+        "evals/fixtures/combined-final.md"
+      ],
+      "roles": {
+        "file_1": "source",
+        "file_2": "checked_version"
+      },
+      "expected": {
+        "comparison_required_discrepancies": [
+          "scope_changed_test_group_to_all_users",
+          "metric_changed_78_to_81",
+          "unsupported_causality_added",
+          "limitation_removed"
+        ],
+        "validation_required_categories": [
+          "Неясная формулировка",
+          "Слабый результат"
+        ],
+        "tagging": {
+          "audit_existing": true,
+          "tag_count": 3
+        },
+        "results_must_be_separated_by_mode": true
+      }
+    }
+  ]
+}
