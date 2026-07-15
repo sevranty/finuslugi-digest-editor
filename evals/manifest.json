@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "generated_from_base": "ec3bf10e340cf14d9fcff50c35421e0ae650e6b8",
+  "fixture_policy": {
+    "synthetic_only": true,
+    "contains_personal_data": false,
+    "contains_confidential_data": false,
+    "runtime_contract_modified": false
+  },
+  "files": [
+    {
+      "path": "evals/expected-results.json",
+      "sha256": "1cc1d307b4a755ed53b8793f53e224184c1e2b2a1b751ce2f7a59b6a35f2a713"
+    },
+    {
+      "path": "evals/fixtures/combined-final.md",
+      "sha256": "f0e6d488bae36cc6245932f2616be7fa11d251f5a8f583131ad579ef9107cb1d"
+    },
+    {
+      "path": "evals/fixtures/combined-source.md",
+      "sha256": "bc16f0253c525ab3810ce00661672f422ae743824bbe5085ac54b6c038bebf08"
+    },
+    {
+      "path": "evals/fixtures/comparison-negative-source.md",
+      "sha256": "89c5187ca659e3ce602aca4681eb0fd0e54a2ca928a9581fda9e6ae5f1ddec18"
+    },
+    {
+      "path": "evals/fixtures/comparison-negative-target.md",
+      "sha256": "40b8be32de09446db2b03420aafbc8c32d9e3b0451853df0a13518cd82d575f3"
+    },
+    {
+      "path": "evals/fixtures/comparison-positive-source.md",
+      "sha256": "cd6aa176b0c887b9ba1da6c2f45d5210fc29f3534439e8cbb9cf216ef0751d13"
+    },
+    {
+      "path": "evals/fixtures/comparison-positive-target.md",
+      "sha256": "3ed0295a973de34a0dccf17590b44f13062623c59572e38beb7ce143a505fca1"
+    },
+    {
+      "path": "evals/fixtures/tagging-negative.md",
+      "sha256": "d037e8abb7a8e304cd59052e64b415666fc7cdc15a46a64cc3417cd8af164a34"
+    },
+    {
+      "path": "evals/fixtures/tagging-positive.md",
+      "sha256": "6b2e39501b8e68696d3f5e9f0c77a221a1dd67a54c2b65b2e9a8b4ab2e270b50"
+    },
+    {
+      "path": "evals/fixtures/validation-negative.md",
+      "sha256": "a2fb6d97e0df6ca4c16083424ab06a50e5ec96ca3b33e763354c4cb215d02ab3"
+    },
+    {
+      "path": "evals/fixtures/validation-positive.md",
+      "sha256": "036c6d308390cea1bd41fedaea34ec7ff73dd904bfd4456676217e379fd15369"
+    }
+  ]
+}
