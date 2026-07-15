@@ -1,1 +1,0 @@
-# finuslugi-digest-editor
