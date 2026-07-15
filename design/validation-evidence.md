@@ -41,9 +41,10 @@ assets/
 
 Validation results:
 
-- SVG master: `1280 x 640`, PASS;
+- SVG master: `1280 x 640`, `2159 bytes`, PASS;
 - social preview PNG: `1280 x 640`, `2137 bytes`, PASS;
 - project image PNG: `1080 x 1080`, `1992 bytes`, PASS;
+- SVG/PNG composition consistency: PASS;
 - social preview below `1 MB`: PASS;
 - 80 px safe area: PASS;
 - readability at `320 x 160`: PASS;
