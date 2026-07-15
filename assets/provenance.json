@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "project": "finuslugi-digest-editor",
+  "task": "FDE#8",
+  "base_commit": "59bf1df196de15c95c222573a6707254b22dca28",
+  "source_head": "13f34279d107378ad74697e067a54c6828e7b397",
+  "selected_direction": "Evidence grid",
+  "creation_method": "Original high-contrast composition built from geometric primitives and text. The SVG master and deterministic 1-bit PNG exports use the same monochrome Evidence grid structure for predictable rendering and compact file size.",
+  "author": "Vsevolod Rymar",
+  "rights": "Original project assets released under the repository MIT License.",
+  "third_party_assets": [],
+  "contains_logos": false,
+  "contains_real_data": false,
+  "personal_skill_package_included": false,
+  "files": [
+    {
+      "path": "assets/source/social-preview.svg",
+      "format": "svg",
+      "width": 1280,
+      "height": 640,
+      "bytes": 2159,
+      "sha256": "0ce5f45f7ef21bb393773f5c1c32448a9dbf615799ff87c6142393ffa759a15b",
+      "git_blob_sha1": "fad6d1d784f7fc035588b2b529c606939c28b72f"
+    },
+    {
+      "path": "assets/social-preview.png",
+      "format": "png",
+      "width": 1280,
+      "height": 640,
+      "bytes": 2137,
+      "sha256": "5094ae561d12199ac4d72a9b99bf3663f31d638577d7790d86028b17512ccb04",
+      "git_blob_sha1": "b5c8de47e732a2003635c1a6b40e48c5e02dba0d"
+    },
+    {
+      "path": "assets/project-image.png",
+      "format": "png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 1992,
+      "sha256": "9ca7f006b473140636a40a63ea53c4249fbfc82df261ed64f7eff2480c812933",
+      "git_blob_sha1": "79bbccd02ee19d9b9d384523083367e15bed99a8"
+    }
+  ],
+  "validation": {
+    "master_export_consistency": "PASS: SVG and PNG exports share the same monochrome Evidence grid composition.",
+    "safe_area": "PASS: title and core symbols remain inside the central 1120 x 480 area with 80 px outer margin.",
+    "readability_25_percent": "PASS: project name and three mode labels remain readable at 320 x 160.",
+    "light_context": "PASS",
+    "dark_context": "PASS",
+    "solid_background": "PASS",
+    "social_preview_under_1mb": true,
+    "brand_trace": "PASS: no third-party logos, interface screenshots or copied assets.",
+    "skill_package_exclusion": "PASS: all design and asset files are repository-only."
+  }
+}

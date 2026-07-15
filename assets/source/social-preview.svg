@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#000000"/>
+  <g fill="#ffffff" font-family="DejaVu Sans Mono, monospace">
+    <text x="80" y="125" font-size="58" font-weight="700">finuslugi-digest-editor</text>
+    <text x="82" y="190" font-size="28">REVIEW  TAGS  DIFF</text>
+    <rect x="82" y="230" width="500" height="8"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="4">
+    <rect x="80" y="300" width="320" height="220" rx="22"/>
+    <rect x="440" y="300" width="320" height="220" rx="22"/>
+    <rect x="800" y="300" width="320" height="220" rx="22"/>
+  </g>
+  <g fill="#ffffff" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700">
+    <text x="108" y="355">REVIEW</text>
+    <text x="468" y="355">TAGS</text>
+    <text x="828" y="355">DIFF</text>
+  </g>
+  <g fill="#ffffff">
+    <rect x="108" y="382" width="102" height="6"/>
+    <rect x="468" y="382" width="102" height="6"/>
+    <rect x="828" y="382" width="102" height="6"/>
+    <rect x="108" y="415" width="152" height="7"/><rect x="108" y="447" width="127" height="7"/><rect x="108" y="479" width="152" height="7"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="3">
+    <rect x="348" y="409" width="24" height="24" rx="6"/><path d="m354 421 6 6 10-13"/>
+    <rect x="348" y="441" width="24" height="24" rx="6"/><path d="m354 453 6 6 10-13"/>
+    <rect x="348" y="473" width="24" height="24" rx="6"/><path d="m354 485 6 6 10-13"/>
+    <rect x="468" y="405" width="137" height="24" rx="12"/><line x1="635" y1="417" x2="720" y2="417"/>
+    <rect x="468" y="443" width="137" height="24" rx="12"/><line x1="635" y1="455" x2="720" y2="455"/>
+    <rect x="468" y="481" width="137" height="24" rx="12"/><line x1="635" y1="493" x2="720" y2="493"/>
+    <rect x="828" y="405" width="102" height="70" rx="10"/><rect x="990" y="405" width="102" height="70" rx="10"/>
+    <line x1="940" y1="440" x2="980" y2="440"/><path d="m970 430 10 10-10 10"/>
+  </g>
+  <text x="80" y="600" fill="#ffffff" font-family="DejaVu Sans Mono, monospace" font-size="22">EVIDENCE-BASED EDITING</text>
+</svg>

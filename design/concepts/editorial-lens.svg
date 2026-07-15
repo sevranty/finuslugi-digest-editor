@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#f3f5f7"/>
+  <text x="80" y="90" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#152238">B. Editorial lens</text>
+  <rect x="100" y="150" width="760" height="360" rx="24" fill="#fff" stroke="#d7dee8" stroke-width="2"/>
+  <g fill="#c6ced8"><rect x="150" y="210" width="520" height="13" rx="6"/><rect x="150" y="254" width="455" height="13" rx="6"/><rect x="150" y="298" width="390" height="13" rx="6"/><rect x="150" y="342" width="520" height="13" rx="6"/><rect x="150" y="386" width="455" height="13" rx="6"/><rect x="150" y="430" width="390" height="13" rx="6"/></g>
+  <circle cx="700" cy="330" r="135" fill="#fff" fill-opacity=".72" stroke="#3b82f6" stroke-width="14"/>
+  <path d="M797 427 925 555" stroke="#3b82f6" stroke-width="22" stroke-linecap="round"/>
+  <rect x="625" y="275" width="130" height="18" rx="9" fill="#7fe3a1"/><rect x="610" y="325" width="170" height="18" rx="9" fill="#47b6ff"/><rect x="640" y="375" width="95" height="18" rx="9" fill="#ffbe66"/>
+  <g font-family="Arial,sans-serif" fill="#152238"><text x="930" y="245" font-size="24" font-weight="700">Проверка</text><text x="930" y="295" font-size="18">Факты</text><text x="930" y="335" font-size="18">Теги</text><text x="930" y="375" font-size="18">Статусы</text></g>
+</svg>
