@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project": "finuslugi-digest-editor",
+  "task": "FDE#8",
+  "base_commit": "59bf1df196de15c95c222573a6707254b22dca28",
+  "source_head": "13f34279d107378ad74697e067a54c6828e7b397",
+  "selected_direction": "Evidence grid",
+  "creation_method": "Original composition built from geometric primitives and text. The editable master is SVG; deterministic 1-bit PNG exports were rendered locally for predictable display and compact file size.",
+  "author": "Vsevolod Rymar",
+  "rights": "Original project assets released under the repository MIT License.",
+  "third_party_assets": [],
+  "contains_logos": false,
+  "contains_real_data": false,
+  "personal_skill_package_included": false,
+  "files": [
+    {
+      "path": "assets/source/social-preview.svg",
+      "format": "svg",
+      "width": 1280,
+      "height": 640,
+      "bytes": 5231,
+      "sha256": "4893aa2f4eaf6ca8c931fbec92057e6e685e6636823b9de561b6f29218d4fec4",
+      "git_blob_sha1": "a006f4d12b330ef30cbca3c094a5eaeec5b56a21"
+    },
+    {
+      "path": "assets/social-preview.png",
+      "format": "png",
+      "width": 1280,
+      "height": 640,
+      "bytes": 2137,
+      "sha256": "5094ae561d12199ac4d72a9b99bf3663f31d638577d7790d86028b17512ccb04",
+      "git_blob_sha1": "b5c8de47e732a2003635c1a6b40e48c5e02dba0d"
+    },
+    {
+      "path": "assets/project-image.png",
+      "format": "png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 1992,
+      "sha256": "9ca7f006b473140636a40a63ea53c4249fbfc82df261ed64f7eff2480c812933",
+      "git_blob_sha1": "79bbccd02ee19d9b9d384523083367e15bed99a8"
+    }
+  ],
+  "validation": {
+    "safe_area": "PASS: title and core symbols remain inside the central 1120 x 480 area with 80 px outer margin.",
+    "readability_25_percent": "PASS: project name and three mode labels remain readable at 320 x 160.",
+    "light_context": "PASS",
+    "dark_context": "PASS",
+    "solid_background": "PASS",
+    "social_preview_under_1mb": true,
+    "brand_trace": "PASS: no third-party logos, interface screenshots or copied assets.",
+    "skill_package_exclusion": "PASS: all design and asset files are repository-only."
+  }
+}
