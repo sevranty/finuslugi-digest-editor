@@ -9,12 +9,12 @@
 | D-05 | complete | FDE#15 | package is built by one script | `scripts/build_package.py` |
 | D-06 | complete | FDE#15 | manifest, checksum and install smoke exist | `scripts/validate_package.py` |
 | D-07 | complete | FDE#15 | initial version and release notes are recorded | `release/package.json`, `CHANGELOG.md` |
-| D-08 | controlled | maintenance | static fixtures are not runtime execution evidence | `docs/MANUAL_RUNTIME_REVIEW.md` |
+| D-08 | controlled | maintenance | static fixtures are not runtime execution evidence | manual acceptance: [FDE#3](https://github.com/sevranty/finuslugi-digest-editor/issues/3); reusable template: `docs/MANUAL_RUNTIME_REVIEW.md` |
 | D-09 | complete | FDE#15 | manual review covers all modes | `docs/MANUAL_RUNTIME_REVIEW.md` |
 | D-10 | complete | FDE#15 | runtime digest and personal sync rule exist | `docs/MAINTENANCE.md` |
 | D-11 | not-planned | repository owner | GitHub social preview setting is external metadata | versioned asset remains source |
 | D-12 | not-planned | repository owner | tag and GitHub Release require explicit publication approval | no publication |
 | D-13 | complete | FDE#15 | local exact-HEAD evidence is defined | `docs/VALIDATION.md` |
-| D-14 | not-planned | repository owner | historical title normalization is unnecessary | legacy history retained |
+| D-14 | complete | FDE#19 | historical Issue and PR titles follow the lifecycle naming policy | [FDE#19 audit](https://github.com/sevranty/finuslugi-digest-editor/issues/19); normalized Issues and merged PR titles |
 | D-15 | complete | FDE#15 | maintenance triggers and checks are defined | `docs/MAINTENANCE.md` |
 | D-16 | complete | FDE#15 | version, rebuild and sync rules are defined | `docs/MAINTENANCE.md` |
