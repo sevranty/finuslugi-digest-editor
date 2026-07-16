@@ -66,7 +66,7 @@ def validate_archive(archive_path: Path, root: Path = ROOT) -> None:
                 raise ValueError("archive: SKILL.md has unexpected name")
             agent = (extracted_root / "agents/openai.yaml").read_text(encoding="utf-8")
             if 'display_name: "Редактор дайджеста Финуслуг"' not in agent:
-                raise ValueError(Iarchive: agents/openai.yaml has unexpected display_name")
+                raise ValueError("archive: agents/openai.yaml has unexpected display_name")
 
     manifest_path = Path(str(archive_path) + ".manifest.json")
     checksum_path = Path(str(archive_path) + ".sha256")

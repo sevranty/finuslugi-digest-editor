@@ -139,7 +139,7 @@ def validate_assets(root: Path) -> None:
     provenance_path = require_file(root, "assets/provenance.json")
     provenance = json.loads(provenance_path.read_text(encoding="utf-8"))
     if provenance.get("personal_skill_package_included") is not False:
-        raise ValidationError(Iassets/provenance.json: package exclusion must be false")
+        raise ValidationError("assets/provenance.json: package exclusion must be false")
     items = provenance.get("files")
     if not isinstance(items, list):
         raise ValidationError("assets/provenance.json: files must be a list")
