@@ -26,6 +26,7 @@ steps:
   - name: project-validation
     image: python:3.12-alpine
     commands:
+      - python3 scripts/validate_fixtures.py
       - python3 scripts/validate_repository.py .
       - python3 -m unittest discover -s tests -p 'test_*.py'
 
